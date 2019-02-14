@@ -1,11 +1,11 @@
-package com.autocomplete.elastic.repository;
+package org.turbo.elastic.repository;
 
-import com.autocomplete.elastic.entity.Post;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
+import org.turbo.elastic.entity.Post;
 
 import java.util.List;
 
 public interface PostRepository extends ElasticsearchRepository<Post, Long> {
 
-    List<Post> findByTitleLike(String title);
+    List<Post> findByTitleStartingWith(String title);
 }

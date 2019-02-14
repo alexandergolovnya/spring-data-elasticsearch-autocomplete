@@ -1,6 +1,6 @@
-package com.autocomplete.elastic.service;
+package org.turbo.elastic.service;
 
-import com.autocomplete.elastic.entity.Post;
+import org.turbo.elastic.entity.Post;
 
 import java.util.List;
 

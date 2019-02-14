@@ -1,7 +1,7 @@
-package com.autocomplete.elastic.loader;
+package org.turbo.elastic.loader;
 
-import com.autocomplete.elastic.entity.Post;
-import com.autocomplete.elastic.repository.PostRepository;
+import org.turbo.elastic.entity.Post;
+import org.turbo.elastic.repository.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.stereotype.Component;
@@ -35,8 +35,15 @@ public class Loader {
         posts.add(new Post(1L, "Post 1", 85));
         posts.add(new Post(2L, "Post ranked at 25", 25));
         posts.add(new Post(3L, "Some text to read or not", 100));
-        posts.add(new Post(4L, "Some not text to read or not", 100));
-        posts.add(new Post(5L, "Text and smth", 100));
+        posts.add(new Post(4L, "Some not text to read or not southern", 100));
+        posts.add(new Post(5L, "Sociable persons are major active for a company", 100));
+        posts.add(new Post(6L, "Southwest economy partners", 100));
+        posts.add(new Post(7L, "Southern country on this land", 100));
+        posts.add(new Post(8L, "Some not speech to read or not sociable", 100));
+        posts.add(new Post(9L, "Some not something and another something", 100));
+        posts.add(new Post(10L, "Speech not something and another something", 100));
+        posts.add(new Post(11L, "Spock not something and another something", 100));
+        posts.add(new Post(12L, "Text and smth", 100));
         return posts;
     }
 }

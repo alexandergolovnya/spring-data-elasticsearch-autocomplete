@@ -1,4 +1,4 @@
-package com.autocomplete.elastic;
+package org.turbo.elastic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,4 +11,3 @@ public class ElasticAutocompleteApplication {
     }
 
 }
-
